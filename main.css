@@ -1,0 +1,65 @@
+/* 
+    Document   : main
+    Created on : Aug 2, 2012, 7:09:14 PM
+    Author     : root
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+main { 
+    display: block;
+    position: relative;
+}
+
+#ta{
+    width: auto;
+    
+}
+
+#top{
+    
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: X-large;
+}
+
+#tabs
+{
+    
+    text-align: center;
+    
+
+    
+}
+
+.tab
+{
+    
+
+    border-style: solid;
+    border-width: thin;
+    border-color: #D4CDCD;
+    width: 15%;
+    
+    
+}
+
+#left{
+    
+    width: 15%;
+    text-align: left;
+}
+
+#middle{
+    
+    width: 70%;
+    left: 15%;
+    text-align: left;
+}
+
+#right{
+    
+    width: 15%;
+    text-align: left;
+}
