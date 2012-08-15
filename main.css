@@ -8,52 +8,67 @@
 
 main { 
     display: block;
-    position: relative;
+    position: static;
+    margin: 0%;
+    border:0%;
+    width:50%;
 }
 
 #ta{
-    width: auto;
+    width: 100%;
     
 }
 
 #top{
     
-    width: 100%;
+    width: 150%;	
     height: 50px;
     text-align: center;
     font-size: X-large;
+    background-color: #D0D0D0;
 }
 
 #tabs
 {
     
     text-align: center;
-    
+	background-color: #E0FFE0;
 
     
 }
 
+.fill
+{
+
+	background-color: #CDCDCD;
+	width:15%;
+	
+}
+
 .tab
 {
-    
 
+	background-color: #FFFFD0;
+    text-decoration: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     border-style: solid;
     border-width: thin;
     border-color: #D4CDCD;
-    width: 15%;
+    width: 10%;
     
     
 }
 
 #left{
     
-    width: 15%;
+    width: 10%;
     text-align: left;
 }
 
 #middle{
     
-    width: 70%;
+    width: 10%;
     left: 15%;
     text-align: left;
 }
@@ -62,4 +77,5 @@ main {
     
     width: 15%;
     text-align: left;
+    right: 0%;
 }

@@ -9,23 +9,29 @@
         <table id="ta">
 
             <tr>
-                <td id="top" colspan="3">
+				<td class="fill" >
+             
+                </td>
+                <td id="top" >
                     Campus Wide
+                </td>
+                <td class="fill" >
+                    
                 </td>
             </tr>
             <tr>
                 <td></td>
                 <td id="tabs" >
                      <?php
-                        echo '<a class="tab" href=#> Classes <a> &nbsp; ';
-                        echo '<a class="tab" href=#2> Finaces   <a>  &nbsp; &nbsp; ';
-                        echo '<a class="tab" href=#3> Grades  <a> &nbsp; &nbsp; ';
-                        echo '<a class="tab" href=#4> Admin <a> &nbsp; ';
+                        echo '<a class="tab" href=#> Classes </a> &nbsp; ';
+                        echo '<a class="tab" href=#2> Finaces   </a>  &nbsp; &nbsp; ';
+                        echo '<a class="tab" href=#3> Grades  </a> &nbsp; &nbsp; ';
+                        echo '<a class="tab" href=#4> Admin </a> &nbsp; ';
                      ?>  
                 </td>
                 <td></td>
             </tr>
-            <tr width="100%">
+            <tr>
 
                 <td id="left">
                      <?php
