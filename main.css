@@ -8,9 +8,9 @@
 
 main { 
     display: block;
-    position: static;
+    position: relative;
     margin: 0%;
-    border:0%;
+    border-width: thin;
     width:50%;
 }
 
@@ -39,7 +39,7 @@ main {
 
 .fill
 {
-
+        text-align: center;
 	background-color: #CDCDCD;
 	width:15%;
 	
@@ -48,7 +48,7 @@ main {
 .tab
 {
 
-	background-color: #FFFFD0;
+    background-color: #FFFFD0;
     text-decoration: none;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -56,6 +56,7 @@ main {
     border-width: thin;
     border-color: #D4CDCD;
     width: 10%;
+    color: black;
     
     
 }
@@ -68,9 +69,11 @@ main {
 
 #middle{
     
-    width: 10%;
-    left: 15%;
+    width: auto;
+    left: auto;
     text-align: left;
+    position: absolute;
+
 }
 
 #right{
